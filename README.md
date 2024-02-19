@@ -57,11 +57,3 @@ Contributions are welcome! If you have any suggestions, bug fixes, or feature re
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Authors
-
-- [Author Name](https://github.com/author): Brief description or link to the author's GitHub profile.
-
-## Acknowledgments
-
-- Acknowledge any third-party libraries, tutorials, or resources used in the project.
