@@ -2,7 +2,7 @@ import csv  #helps to manipulate and work with csv files
 from datetime import datetime
 
 import cv2  #openCV library
-import face_recognition   #face_recognition library
+import face_recognition   #face_recognition library, which uses C/C++ code underneath. Hence, we need to install VS Code build tools(which provides the compiler) for compilation of that code.
 import numpy as np
 
 video_capture = cv2.VideoCapture(0)   #captures video from the first camera
