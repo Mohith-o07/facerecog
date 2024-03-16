@@ -15,18 +15,13 @@ This is a Python-based face recognition attendance system that uses OpenCV and f
 1. **Install Python dependencies**: Ensure you have Python installed on your system. Install the required Python libraries using the following command:
 
    ```
-   pip install opencv-python face_recognition numpy
+   pip install opencv-python face_recognition numpy cmake (cmake is ued for managing the build process for C/C++ code/components of face_recognition library).
    ```
 
-2. **Download pre-trained models**: Download pre-trained models for face recognition from the `face_recognition` library by running the following command:
+2. **Configure known individuals**: Update the code to specify the image paths and names of known individuals for face recognition.
 
-   ```
-   python -m face_recognition_models
-   ```
-
-3. **Configure known individuals**: Update the code to specify the image paths and names of known individuals for face recognition.
-
-4. **Run the script**: Execute the script `attendance_system.py` to start the face recognition attendance system.
+3. **Run the script**: Execute the script `attendance_system.py` to start the face recognition attendance system.
+4. **Build Tools**: If you are using VS Code, make sure you have installed VS Code Community version for build tools(C++)(to compile face_recognition library).
 
 ## Usage
 
