@@ -6,14 +6,14 @@ import face_recognition
 import numpy as np
 
 video_capture = cv2.VideoCapture(0)
-mohith_image = face_recognition.load_image_file("faces/mohith.jpeg")
-mohith_encoding = face_recognition.face_encodings(mohith_image)[0]
+person1_image = face_recognition.load_image_file("faces/person1.jpeg")
+person1_encoding = face_recognition.face_encodings(person1_image)[0]
 
-harshith_image = face_recognition.load_image_file("faces/harshith.jpeg")
-harshith_encoding = face_recognition.face_encodings(harshith_image)[0]
+person2_image = face_recognition.load_image_file("faces/person2.jpeg")
+person2_encoding = face_recognition.face_encodings(person2_image)[0]
 
-known_face_encodings = [mohith_encoding, harshith_encoding]
-known_face_names = ["mohith", "harshith"]
+known_face_encodings = [person1_encoding, person2_encoding]
+known_face_names = ["person1", "person2"]
 
 # List of expected students
 students = known_face_names.copy()
